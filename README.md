@@ -1,101 +1,95 @@
-# [Título do Projecto]
+# Sistema de Informação Web para Gestão Integrada de Agenda, Assiduidade e Informação Operacional em Contextos de Intervenção na Área da Saúde
 
-> Subtítulo ou tagline curta — o problema que resolve e para quem.
+> SIWAS - Sistema de Informação Web na Área da Saúde
 
-**Estudante:** [Nome] · [Número]  
+**Estudante:** Maria Costa · 2304361  
 **Orientador:** Pedro Pestana  
 **UC:** Projecto de Engenharia Informática · Universidade Aberta · 2025/26  
-**Repositório:** [URL deste repositório]
+**Repositório:** https://github.com/mffCosta/SIWAS
 
 ---
 
 ## Estado actual
 
-<!-- Actualizar a cada entrega. Escolher um estado e apagar os outros. -->
-
-🟢 **Verde** — A correr conforme planeado.  
-🟡 **Amarelo** — [Descrever o que está em risco ou bloqueado, numa linha.]  
-🔴 **Vermelho** — [Descrever o problema crítico, numa linha.]
+🟡 **Amarelo** - Proposta inicial concluída; implementação ainda não iniciada.
 
 ---
 
 ## O que está implementado
 
-<!-- Lista das funcionalidades do MVP que estão funcionais. -->
-<!-- Ser específico: não "o login está feito" mas "autenticação por email/password com JWT, sessão persistente em localStorage." -->
-
-- [ ] Funcionalidade A — [descrição breve]
-- [ ] Funcionalidade B — [descrição breve]
-- [ ] Funcionalidade C — [descrição breve]
+- [x] Proposta inicial do projeto
+- [x] Definição do MVP e critérios de aceitação
+- [x] Stack tecnológica definida e justificada
+- [x] Estrutura do repositório criada com base no template da UC
+- [x] Calendarização individual detalhada
 
 ---
 
 ## O que está pendente
 
-<!-- O que falta do MVP e porquê. Se algo foi descontinuado, explicar a decisão. -->
+- [ ] Implementação da estrutura inicial do backend em Django
+- [ ] Modelação da base de dados
+- [ ] Criação dos diagramas de arquitetura (C4 e modelo de dados)
+- [ ] Definição dos wireframes principais
+- [ ] Implementação do núcleo funcional do MVP (autenticação, utentes, colaboradores, agenda, sessões, presenças e audit log)
 
-- [ ] Funcionalidade D — [estado e razão do atraso se aplicável]
-- [ ] Funcionalidade E — [estado]
 
 ---
 
 ## Como instalar e correr
 
-<!-- Instruções que funcionam numa máquina limpa. Se não funcionar na demo, não conta como feito. -->
-
 ### Pré-requisitos
 
-```
-[ex: Node.js 20+, Python 3.11+, Docker, etc.]
-```
+- Python 3.11+
+- Django
+- PostgreSQL
 
 ### Instalação
 
 ```bash
 # 1. Clonar o repositório
-git clone [URL]
-cd [nome-do-repo]
+git clone https://github.com/mffCosta/SIWAS
+cd SIWAS
 
 # 2. Instalar dependências
-[ex: npm install / pip install -r requirements.txt]
+# (a definir após criação do projeto Django)
 
 # 3. Configurar variáveis de ambiente
-cp .env.example .env
-# Editar .env com os valores correctos
+# (a definir)
 
 # 4. Correr
-[ex: npm run dev / python app.py]
+# (a definir)
 ```
+
 
 ### Acesso
 
-```
-[ex: http://localhost:3000]
-[Credenciais de teste se aplicável]
-```
+Informação a disponibilizar após a primeira versão funcional do sistema.
+
 
 ---
 
+
 ## Decisões de arquitectura principais
 
-<!-- 2 a 4 decisões relevantes com justificação breve. Para o detalhe completo, ver docs/architecture/adr/. -->
-
 | Decisão | Alternativa considerada | Razão da escolha |
-|---------|------------------------|-----------------|
-| [ex: PostgreSQL] | [ex: MongoDB] | [ex: dados relacionais com integridade referencial necessária] |
-| [ex: React] | [ex: Vue] | [ex: maior familiaridade da equipa, ecossistema] |
+|---------|-------------------------|------------------|
+| Python + Django | Laravel / Blazor / Node.js + Express | Framework robusto que disponibiliza ORM, autenticação, gestão de utilizadores e formulários, permitindo desenvolvimento rápido de sistemas de informação com controlo de acessos baseado em perfis (RBAC). |
+| PostgreSQL | MySQL | Sistema de gestão de bases de dados relacional robusto, com bom suporte a integridade de dados e relações complexas, adequado ao modelo de dados do projeto e bem integrado com Django, sendo igualmente adequado para suportar futuras funcionalidades de análise de dados e produção de indicadores estatísticos. |
+| Django Templates + Bootstrap | SPA com React | Abordagem mais simples e adequada ao tempo disponível, permitindo interface responsiva sem complexidade adicional de uma arquitetura SPA. |
+| FullCalendar.js | Implementação manual da agenda | Biblioteca madura para gestão e visualização de eventos, adequada ao módulo mais exigente do sistema (agenda). |
+
 
 ---
 
 ## Referências e IA utilizada
 
-<!-- Bibliotecas, APIs externas, tutoriais seguidos. -->
-<!-- Distinguir o que foi escrito de raiz do que foi adaptado ou gerado. -->
-
 ### Referências técnicas
 
-- [Referência 1]
-- [Referência 2]
+- Documentação oficial do Django
+- Documentação oficial do PostgreSQL
+- Documentação oficial do FullCalendar
+- Documentação oficial do Leaflet
 
 ### Ferramentas de IA utilizadas
 
@@ -103,9 +97,9 @@ cp .env.example .env
 
 | Ferramenta | Para que foi usada |
 |-----------|-------------------|
-| [ex: GitHub Copilot] | [ex: autocompletar código boilerplate] |
-| [ex: Claude] | [ex: explorar alternativas de arquitectura] |
+| ChatGPT | Apoio à clarificação do âmbito do projeto, definição do MVP, análise da stack tecnológica e estruturação da documentação |
+| ProjAIde | Discussão de alternativas tecnológicas e apoio na organização inicial da proposta |
 
 ---
 
-*Última actualização: [data] · [semana do semestre, ex: Sem. 7]*
+*Última actualização: 09/04/2026 · Sem. 4*

@@ -8,33 +8,33 @@
 
 ## Sem. 1 · 17–21 mar
 
-**Feito:** [O que foi concluído esta semana]  
-**Bloqueou:** [O que impediu progresso, ou "Nada"]  
-**Próxima semana:** [O que está planeado]
+**Feito:** Análise do tema do projeto e definição da proposta inicial (Fase 0).  
+**Bloqueou:** Necessidade de clarificar o âmbito do projeto e alinhamento com o orientador.  
+**Próxima semana:** Revisão da proposta e preparação para submissão.
 
 ---
 
 ## Sem. 2 · 24–28 mar
 
-**Feito:**  
-**Bloqueou:**  
-**Próxima semana:**
+**Feito:** Revisão da proposta inicial com base no feedback do orientador; definição do núcleo obrigatório e critérios de aceitação do MVP.  
+**Bloqueou:** Ajuste do âmbito da funcionalidade da agenda (redução de complexidade).  
+**Próxima semana:** Submissão da proposta e início da organização do repositório.
 
 ---
 
 ## Sem. 3 · 31 mar–4 abr
 
-**Feito:**  
-**Bloqueou:**  
-**Próxima semana:**
+**Feito:** Pausa letiva (Páscoa).  
+**Bloqueou:** Interrupção das atividades letivas.  
+**Próxima semana:** Criação do repositório GitHub e início da organização documental do projeto.
 
 ---
 
 ## Sem. 4 · 7–11 abr
 
-**Feito:**  
-**Bloqueou:**  
-**Próxima semana:**
+**Feito:** Criação do repositório GitHub público com base no template da UC; definição da stack tecnológica e atualização do README.  
+**Bloqueou:** Nenhum.  
+**Próxima semana:** Definição do modelo de dados e elaboração dos diagramas de arquitetura.
 
 ---
 
